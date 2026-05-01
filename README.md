@@ -19,7 +19,7 @@ Content Delivery: CloudFront med Origin Access Control (OAC) for sikker serverin
 Identity & Access Management (IAM)
 Projektet følger "Principle of Least Privilege" (PoLP). Jeg har defineret specifikke politikker for forskellige afdelinger:
 ---
-Gruppe	Primære Rettigheder
+### Gruppe	Primære Rettigheder
 IT-Group	Fuld S3 administration, IAM management og begrænset EC2 adgang.
 Sales-Group	Read/Write adgang til specifikke forretningskritiske S3 buckets.
 HR-Group	Read/Write adgang til HR-relevante dokumenter i S3.
